@@ -35,12 +35,6 @@
     --danger950:#480707;
 }
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-size: 16px;
     font-family: "Manrope", sans-serif;
@@ -153,3 +147,50 @@ body {
     line-height: 1rem;
 }
 /* End Typography */
+
+/* Buttons */
+.btn {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    padding: 1rem 1.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+.btn ion-icon {
+    font-size: 1.5rem;
+}
+
+.primary-btn {
+    background-color: var(--primary500);
+    color: var(--white);
+    border-color: var(--primary500);
+}
+
+.primary-btn:hover {
+    background-color: var(--gray950);
+    color: var(--white);
+}
+
+.primary-btn:focus {
+    background-color: var(--primary700);
+    color: var(--white);
+    border-color: var(--primary500);
+}
+
+.btn-check:checked + .primary-btn, :not(.btn-check) + .primary-btn:active, .primary-btn:first-child:active, .primary-btn.active, .primary-btn.show {
+  color: var(--white);
+  background-color: var(--gray950);
+  border-color: var(--gray950);
+}
+
+
+/* End buttons */
