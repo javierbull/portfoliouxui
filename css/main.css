@@ -176,11 +176,28 @@ body {
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #1C1D20;
   --bs-btn-hover-border-color: #1C1D20;
-  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-focus-shadow-rgb: 28, 29, 32;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #1C1D20;
-  --bs-btn-active-border-color: #1C1D20;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-active-bg: #6253FF;
+  --bs-btn-active-border-color: #6253FF;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(98, 83, 255, 0.5);
+  --bs-btn-disabled-color: #5C616D;
+  --bs-btn-disabled-bg: #B7BAC2;
+  --bs-btn-disabled-border-color: #B7BAC2;
+}
+
+.primaryDark-btn {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #6253FF;
+  --bs-btn-border-color: #6253FF;
+  --bs-btn-hover-color: #6253FF;
+  --bs-btn-hover-bg: #fff;
+  --bs-btn-hover-border-color: #6253FF;
+  --bs-btn-focus-shadow-rgb: 98, 83, 255;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #fff;
+  --bs-btn-active-border-color: #6253FF;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(98, 83, 255, 0.5);
   --bs-btn-disabled-color: #5C616D;
   --bs-btn-disabled-bg: #B7BAC2;
   --bs-btn-disabled-border-color: #B7BAC2;
