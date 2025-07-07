@@ -246,4 +246,20 @@ body {
     text-decoration: underline;
 }
 
+.link-dark-btn {
+    --bs-btn-font-weight: 400;
+    --bs-btn-color: var(--white);
+    --bs-btn-bg: transparent;
+    --bs-btn-border-color: transparent;
+    --bs-btn-hover-color: var(--primary500);
+    --bs-btn-hover-border-color: transparent;
+    --bs-btn-active-color: var(--primary700);
+    --bs-btn-active-border-color: transparent;
+    --bs-btn-disabled-color: var(--gray500);
+    --bs-btn-disabled-border-color: transparent;
+    --bs-btn-box-shadow: 0 0 0 #000;
+    --bs-btn-focus-shadow-rgb: 98, 83, 255;
+    text-decoration: underline;
+}
+
 /* End buttons */
