@@ -425,11 +425,12 @@ body {
     height: 2.5rem;
 }
 
-.navbar-menu {
+.navbar-menu, .navbar-menu-start {
     /* background-color: pink; */
     display: flex;
     align-items: center;
     margin-bottom: 0;
     list-style: none;
+    padding: 0;
 }
 /* End navbar */
