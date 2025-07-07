@@ -33,6 +33,7 @@
     --danger800: #A01414;
     --danger900: #841818;
     --danger950: #480707;
+    --shadow-bottom: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 body {
@@ -317,3 +318,38 @@ body {
 }
 
 /* End inputs */
+
+/* Checks & Radios */
+.form-check-input {
+    --bs-form-check-bg: var(--white);
+    flex-shrink: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.25em;
+    vertical-align: top;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: var(--bs-form-check-bg);
+    background-image: var(--bs-form-check-bg-image);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: var(--bs-border-width) solid var(--gray950);
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+    print-color-adjust: exact;
+}
+
+.form-check-input:focus {
+    border-color: var(--primary500);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(98, 83, 255, 0.5);
+}
+
+.form-check-input:checked {
+    background-color: var(--primary500);
+    border-color: var(--primary500);
+}
+
+/* End Checks & Radios */
