@@ -42,6 +42,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    color: var(--gray950);
 }
 
 
@@ -353,3 +354,59 @@ body {
 }
 
 /* End Checks & Radios */
+
+/* Chips */
+.chip>* {
+    margin-right: 2px;
+    margin-left: 2px;
+    color: var(--gray950);
+}
+
+.chip input {
+    display: none;
+}
+
+.chip {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--white);
+    border: 1px solid var(--gray200);
+    display: inline-flex;
+    align-items: center;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+.chip-checkbox:hover span {
+    color: var(--primary500);
+}
+
+.chip-checkbox.active {
+    background-color: var(--primary500);
+    border-color: var(--primary500);
+}
+
+.chip-checkbox.active span {
+    color: var(--white);
+}
+
+.chip-checkbox.active:hover {
+    background-color: var(--primary700);
+}
+
+.chip-checkbox:hover {
+    background-color: var(--primary050);
+    border: solid 1px var(--primary500) !important;
+}
+
+.chip-checkbox:focus {
+    background-color: var(--primary050);
+    border: solid 1px var(--primary500) !important;
+}
+
+
+/* End chips */
