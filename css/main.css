@@ -245,7 +245,7 @@ body {
     --bs-btn-disabled-border-color: transparent;
     --bs-btn-box-shadow: 0 0 0 #000;
     --bs-btn-focus-shadow-rgb: 98, 83, 255;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .link-dark-btn {
@@ -261,7 +261,7 @@ body {
     --bs-btn-disabled-border-color: transparent;
     --bs-btn-box-shadow: 0 0 0 #000;
     --bs-btn-focus-shadow-rgb: 98, 83, 255;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .social-btn {
@@ -407,6 +407,29 @@ body {
     background-color: var(--primary050);
     border: solid 1px var(--primary500) !important;
 }
-
-
 /* End chips */
+
+/* Navbar */
+.navbar-main {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(25px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    border-bottom: 1px solid var(--gray200);
+    box-shadow: var(--shadow-bottom);
+}
+
+.navbar-logo {
+    height: 2.5rem;
+}
+
+.navbar-menu {
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    list-style: none;
+}
+/* End navbar */
