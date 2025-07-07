@@ -165,8 +165,17 @@ body {
     -o-border-radius: 2rem;
 }
 
-.btn ion-icon {
+.btn-icon {
     font-size: 1.5rem;
+    padding: 1rem !important;
+}
+
+.btn-icon {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 .primary-btn {
