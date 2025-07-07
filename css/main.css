@@ -262,4 +262,21 @@ body {
     text-decoration: underline;
 }
 
+.social-btn {
+    --bs-btn-color: var(--white);
+    --bs-btn-bg: var(--gray900);
+    --bs-btn-border-color: var(--gray900);
+    --bs-btn-hover-color: var(--white);
+    --bs-btn-hover-bg: var(--primary500);
+    --bs-btn-hover-border-color: var(--primary500);
+    --bs-btn-focus-shadow-rgb: 98, 83, 255;
+    --bs-btn-active-color: var(--white);
+    --bs-btn-active-bg: var(--primary700);
+    --bs-btn-active-border-color: var(--primary700);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(98, 83, 255, 0.5);
+    --bs-btn-disabled-color: var(--gray500);
+    --bs-btn-disabled-bg: var(--gray200);
+    --bs-btn-disabled-border-color: var(--gray200);
+}
+
 /* End buttons */
