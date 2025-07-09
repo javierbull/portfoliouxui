@@ -506,6 +506,15 @@ body {
     gap: 1.5rem;
 }
 
+.card-service:hover {
+    background-color: var(--primary500);
+}
+
+.card-service:hover .primaryDark-btn {
+    background-color: var(--white);
+    color: var(--primary500);
+}
+
 .card-service__start,
 .card-service__end {
     /* background-color: tomato; */
