@@ -523,11 +523,6 @@ body {
     gap: 1.5rem;
 }
 
-.card-service__title,
-.card-service__end p {
-    margin-bottom: 0;
-}
-
 .card-project {
     background-color: var(--white);
     border: solid 1px var(--gray200);
