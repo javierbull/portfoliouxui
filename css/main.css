@@ -583,4 +583,29 @@ body {
     -o-border-radius: 1rem;
 }
 
+.card-experience {
+    background-color: var(--gray950);
+    color: var(--white);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    border: solid 1px var(--gray400);
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.card-experience__start {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.card-experience__end {
+    /* background-color: tomato; */
+    width: 50%;
+}
 /* End cards */
