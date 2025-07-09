@@ -528,7 +528,45 @@ body {
     margin-bottom: 0;
 }
 
+.card-project {
+    background-color: var(--white);
+    border: solid 1px var(--gray200);
+    width: 20rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
 
+.card-project {
+    overflow: hidden;
+}
 
+.card-project:hover {
+    border: 1px solid var(--primary500);
+}
+
+.card-project:hover img {
+    scale: 1.15;
+}
+
+.card-project__start {
+    overflow: hidden;
+}
+
+.card-project__start img {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.card-project__end {
+    padding: 1rem 1.5rem;
+}
 
 /* End cards */
