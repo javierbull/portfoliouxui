@@ -408,6 +408,7 @@ body {
     background-color: var(--primary050);
     border: solid 1px var(--primary500) !important;
 }
+
 /* End chips */
 
 /* Navbar */
@@ -426,7 +427,8 @@ body {
     height: 2.5rem;
 }
 
-.navbar-menu, .navbar-menu-start {
+.navbar-menu,
+.navbar-menu-start {
     /* background-color: pink; */
     display: flex;
     align-items: center;
@@ -435,11 +437,12 @@ body {
     list-style: none;
     padding: 0;
 }
+
 /* End navbar */
 
 /* Bottom navigation */
 .navbar-bottom {
-    background-color: lightblue;
+    /* background-color: lightblue; */
 }
 
 .navbar-bottom-manu {
@@ -485,5 +488,38 @@ body {
 .btn-navbar-bottom ion-icon {
     font-size: 1.5rem;
 }
+
 /* End bottom navigation */
 
+/* Cards */
+.card-service {
+    background-color: var(--gray950);
+    color: var(--white);
+    padding: 2rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.card-service__start,
+.card-service__end {
+    /* background-color: tomato; */
+    width: 100%;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.card-service__title,
+.card-service__end p {
+    margin-bottom: 0;
+}
+
+
+
+
+/* End cards */
