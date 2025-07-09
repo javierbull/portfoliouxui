@@ -9,6 +9,17 @@
     .navbar-menu-start {
         display: none;
     }
+
+    .card-service {
+        /* background-color: peru; */
+        flex-direction: column;
+        padding: 1.25rem;
+    }
+
+    .card-service__end {
+        align-items: end;
+        gap: 1.25rem;
+    }
 }
 
 
