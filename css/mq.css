@@ -6,6 +6,10 @@
 /* Mobile */
 @media (max-width: 480px) {
 
+    .navbar-main {
+        padding: .75rem 1.25rem;
+    }
+
     .navbar-menu-start {
         display: none;
     }
@@ -19,6 +23,18 @@
     .card-service__end {
         align-items: end;
         gap: 1.25rem;
+    }
+
+    .card-cta {
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: flex-start;
+        padding: 1.5rem;
+    }
+
+    .card-cta h3 {
+        font-size: 1.5rem;
+        line-height: 2rem;
     }
 }
 

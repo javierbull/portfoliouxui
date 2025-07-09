@@ -544,7 +544,7 @@ body {
 }
 
 .card-project:hover {
-    border: 1px solid var(--primary500);
+    border: 2px solid var(--primary500);
 }
 
 .card-project:hover img {
@@ -567,6 +567,20 @@ body {
 
 .card-project__end {
     padding: 1rem 1.5rem;
+}
+
+.card-cta {
+    background-color: var(--gray950);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
 }
 
 /* End cards */
