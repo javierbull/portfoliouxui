@@ -59,6 +59,16 @@
     .footer-list .btn {
         padding: 0;
     }
+
+    .row-form-control {
+        /* background-color: pink; */
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .card-form {
+        padding: 1.25rem;
+    }
 }
 
 
