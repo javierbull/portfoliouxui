@@ -167,6 +167,7 @@ body {
     -moz-border-radius: 2rem;
     -ms-border-radius: 2rem;
     -o-border-radius: 2rem;
+    white-space: nowrap !important;
 }
 
 .btn-icon {
@@ -570,6 +571,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 5rem;
     padding: 1.5rem 3rem;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
@@ -631,14 +633,16 @@ body {
     display: flex;
 }
 
-.card-testiimonial__img {
-    width: 7.5rem;
-    height: 7.5rem;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+.card-testimonial__img {
+    min-width: 7.5rem;
+    min-height: 7.5rem;
+    max-width: 7.5rem;
+    max-height: 7.5rem;
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
     object-fit: cover;
     position: absolute;
     top: -3.75rem;
@@ -703,13 +707,15 @@ body {
 }
 
 .card-testimonial-h__img {
-    width: 4.5rem;
-    height: 4.5rem;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    min-width: 4.5rem;
+    min-height: 4.5rem;
+    max-width: 4.5rem;
+    max-height: 4.5rem;
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
     object-fit: cover;
 }
 
@@ -766,3 +772,25 @@ body {
     padding-right: 0;
 }
 /* End footer */
+
+/* Modals */
+.modal-header, .modal-body {
+    padding: 1.5rem;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.modal-body img {
+    width: 100%;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+/* End modals */
