@@ -721,4 +721,18 @@ body {
 .card-design-process ion-icon {
     font-size: 1.5rem;
 }
+
+.card-process {
+    background-color: var(--gray100);
+    border: solid 1px var(--gray200);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
 /* End cards */
