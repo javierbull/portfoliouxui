@@ -737,3 +737,28 @@ body {
     color: var(--gray950);
 }
 /* End cards */
+
+/* Footer */
+.footer {
+    background-color: var(--gray950);
+    color: var(--white);
+    padding: 1.5rem 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-list {
+    list-style: none;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    padding-left: 0;
+}
+
+.footer-list .btn {
+    padding-left: 0;
+    padding-right: 0;
+}
+/* End footer */
