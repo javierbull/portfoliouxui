@@ -713,5 +713,12 @@ body {
     object-fit: cover;
 }
 
+.card-design-process {
+    display: flex;
+    gap: 1rem;
+}
 
+.card-design-process ion-icon {
+    font-size: 1.5rem;
+}
 /* End cards */
