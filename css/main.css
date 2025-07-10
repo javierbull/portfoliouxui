@@ -650,6 +650,10 @@ body {
     margin-bottom: 1rem;
 }
 
+.card-testimonial__start p {
+    color: var(--gray500);
+}
+
 .quote, .quote-white {
     height: 2rem;
     fill: var(--primary500);
@@ -677,4 +681,35 @@ body {
 .card-testimonial__action .btn {
     width: 100%;
 }
+
+.card-testimonial-v {
+    background-color: var(--primary500);
+    color: var(--white);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.card-testimonial-v__start {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.card-testimonial-v__img {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    object-fit: cover;
+}
+
+
 /* End cards */
