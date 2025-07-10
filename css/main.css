@@ -682,7 +682,7 @@ body {
     width: 100%;
 }
 
-.card-testimonial-v {
+.card-testimonial-h {
     background-color: var(--primary500);
     color: var(--white);
     padding: 1.5rem;
@@ -693,14 +693,14 @@ body {
     -o-border-radius: 1rem;
 }
 
-.card-testimonial-v__start {
+.card-testimonial-h__start {
     display: flex;
     gap: 1.5rem;
     align-items: center;
     margin-bottom: 1rem;
 }
 
-.card-testimonial-v__img {
+.card-testimonial-h__img {
     width: 4.5rem;
     height: 4.5rem;
     border-radius: 50%;
