@@ -748,6 +748,10 @@ body {
     justify-content: space-between;
 }
 
+.footer-logo {
+    height: 2.5rem;
+}
+
 .footer-list {
     list-style: none;
     margin-bottom: 0;

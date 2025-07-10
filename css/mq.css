@@ -45,6 +45,20 @@
     .card-experience__end {
         width: 100%;
     }
+
+    .footer {
+        padding: 1.5rem;
+    }
+
+    .footer,
+    .footer-list {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .footer-list .btn {
+        padding: 0;
+    }
 }
 
 
