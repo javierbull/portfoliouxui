@@ -522,15 +522,18 @@ body {
 /* End bottom navigation */
 
 /* Cards */
-.card-service {
-    background-color: var(--gray950);
-    color: var(--white);
-    padding: 2rem;
+.card-b {
+    padding: 1.5rem;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
+}
+
+.card-service {
+    background-color: var(--gray950);
+    color: var(--white);
     display: flex;
     align-items: center;
     gap: 1.5rem;
@@ -558,14 +561,7 @@ body {
     background-color: var(--white);
     border: solid 1px var(--gray200);
     width: 20rem;
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
-}
-
-.card-project {
+    padding: 0;
     overflow: hidden;
 }
 
@@ -602,23 +598,11 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 5rem;
-    padding: 1.5rem 3rem;
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
 }
 
 .card-experience {
     background-color: var(--gray950);
     color: var(--white);
-    padding: 1rem 2rem;
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
     border: solid 1px var(--gray400);
     display: flex;
     justify-content: space-between;
@@ -640,11 +624,6 @@ body {
 .card-testimonial {
     width: 20rem;
     border: 1px solid var(--gray200);
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
     padding: 4.75rem 1.5rem 4.875rem 1.5rem;
     text-align: center;
     position: relative;
@@ -723,11 +702,6 @@ body {
     background-color: var(--primary500);
     color: var(--white);
     padding: 1.5rem;
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
 }
 
 .card-testimonial-h__start {
@@ -762,12 +736,6 @@ body {
 .card-process {
     background-color: var(--gray100);
     border: solid 1px var(--gray200);
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
-    padding: 1.5rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
