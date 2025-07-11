@@ -642,6 +642,10 @@ body {
     display: flex;
 }
 
+.card-testimonial:hover .card-testimonial__start p {
+    color: var(--white);
+}
+
 .card-testimonial__img {
     min-width: 7.5rem;
     min-height: 7.5rem;
