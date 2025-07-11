@@ -39,10 +39,21 @@
 
     .card-experience {
         flex-direction: column;
+        align-items: flex-start;
         padding: 1rem 1.5rem;
+        width: 100%;
+
     }
 
     .card-experience__end {
+        width: 100%;
+    }
+
+    .card-testimonial {
+        width: 100%;
+    }
+
+    .card-testimonial-h {
         width: 100%;
     }
 

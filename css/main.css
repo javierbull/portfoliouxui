@@ -177,9 +177,6 @@ body {
 .btn-icon {
     font-size: 1.5rem;
     padding: 1rem !important;
-}
-
-.btn-icon {
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -554,6 +551,7 @@ body {
     width: 100%;
     display: flex;
     gap: 1.5rem;
+    align-items: center;
 }
 
 .card-project {
