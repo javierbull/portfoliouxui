@@ -39,6 +39,7 @@
 
 body {
     font-size: 16px;
+    line-height: 1.25rem;
     font-family: "Manrope", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -840,6 +841,25 @@ body {
     gap: 1.25rem;
 }
 
+.work-experience-block {
+    background-color: var(--gray950);
+    color: var(--white);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
 
+.work-experience-block h2 {
+    margin-bottom: 1.5rem;
+}
+
+.wrap-cards-experience {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
 
 /* End modals */
