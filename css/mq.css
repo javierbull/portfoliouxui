@@ -78,6 +78,12 @@
     .about-block {
         flex-direction: column;
     }
+
+    .wrap-testimonial-cards {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 1.25rem;
+    }
 }
 
 

@@ -860,14 +860,21 @@ body {
     -o-border-radius: 1rem;
 }
 
-.work-experience-block h2 {
-    margin-bottom: 1.5rem;
-}
-
 .wrap-cards-experience {
     display: flex;
     flex-direction: column;
     gap: .75rem;
+}
+
+.wrap-testimonial-cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1.25rem;
+}
+
+.wrap-testimonial-cards .card-testimonial-h {
+    /* background-color: tomato; */
+    width: 100%;
 }
 
 /* End modals */
