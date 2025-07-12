@@ -1,5 +1,10 @@
 /* Tablet */
-@media (max-width: 768px) {}
+@media (max-width: 820px) {
+
+    .modal-maxwidth-mobile {
+        --bs-modal-width: 98%;
+    }
+}
 
 /* End tablet */
 
@@ -84,6 +89,7 @@
         grid-template-columns: auto;
         gap: 1.25rem;
     }
+
 }
 
 
