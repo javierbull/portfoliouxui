@@ -74,6 +74,10 @@
     .card-form {
         padding: 1.25rem;
     }
+
+    .about-block {
+        flex-direction: column;
+    }
 }
 
 

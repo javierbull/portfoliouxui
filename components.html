@@ -492,12 +492,16 @@
     <div class="container mb-4">
         <h2 class="headline_2 mb-2">Modals</h2>
         <!-- Button trigger modal -->
-        <button type="button" class="btn primary-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button type="button" class="btn primary-btn" data-bs-toggle="modal" data-bs-target="#projectModal">
             Project modal
         </button>
 
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <button type="button" class="btn primary-btn" data-bs-toggle="modal" data-bs-target="#aboutModal">
+            About modal
+        </button>
+
+        <!-- Modal project -->
+        <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg modal-dialog-scrollable">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -553,6 +557,50 @@
                                 Contact Me
                                 <ion-icon name="arrow-forward" role="img" class="md hydrated"></ion-icon>
                             </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal about -->
+        <div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title headline_2" id="exampleModalLabel">About me</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="about-block">
+                            <img src="img/people/about1.png" class="about-img" alt="">
+                            <div class="about-block__text">
+                                <h2 class="headline_3">Hello there!</h2>
+                                <p>
+                                     I'm specialize in web design and development, and I'm deeply passionate and committed to my craft. With 20 years of experience as a professional graphic designer
+                                </p>
+                                <div class="wrap-experience-data">
+                                    <div class="experience-data">
+                                        <p class="experience-data__number headline_2 mb-0">8+</p>
+                                        <p class="experience-data__desc mb-0">
+                                            Years of Experience
+                                        </p>
+                                    </div>
+                                    <div class="experience-data">
+                                        <p class="experience-data__number headline_2 mb-0">100+</p>
+                                        <p class="experience-data__desc mb-0">
+                                            Project Completed
+                                        </p>
+                                    </div>
+                                    <div class="experience-data">
+                                        <p class="experience-data__number headline_2 mb-0">40+</p>
+                                        <p class="experience-data__desc mb-0">
+                                            Happy Customer
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

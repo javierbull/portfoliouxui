@@ -818,4 +818,28 @@ body {
     -o-border-radius: 1rem;
 }
 
+.about-block {
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+}
+
+.about-img {
+    border-radius: 2.5rem 0 2.5rem 0 !important;
+    -webkit-border-radius: 2.5rem 0 2.5rem 0 !important;
+    -moz-border-radius: 2.5rem 0 2.5rem 0 !important;
+    -ms-border-radius: 2.5rem 0 2.5rem 0 !important;
+    -o-border-radius: 2.5rem 0 2.5rem 0 !important;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.wrap-experience-data {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+}
+
+
+
 /* End modals */
