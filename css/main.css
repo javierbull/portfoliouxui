@@ -797,6 +797,31 @@ body {
 
 /* End footer */
 
+/* Marquee */
+.marquee {
+    overflow: hidden;
+    display: flex;
+    background-color: var(--primary500);
+}
+
+.marquee-track {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding: 1rem 0;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.marquee-item {
+    margin: 0 .5rem;
+}
+
+
+/* End marquee */
+
 /* Modals */
 .modal-content {
     border-radius: 1rem;
