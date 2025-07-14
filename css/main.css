@@ -47,6 +47,9 @@ body {
     color: var(--gray950);
 }
 
+main {
+    margin-top: 87px;
+}
 
 /* typography */
 .display_1 {
@@ -169,6 +172,10 @@ body {
     -ms-border-radius: 2rem;
     -o-border-radius: 2rem;
     white-space: nowrap !important;
+}
+
+.btn ion-icon {
+    font-size: 1.25rem;
 }
 
 .block-btn {
@@ -446,12 +453,16 @@ body {
 .navbar-main {
     background: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(25px);
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--gray200);
+    box-shadow: var(--shadow-bottom);
+}
+
+.navbar-main .container {
+    /* background-color: pink; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2.5rem;
-    border-bottom: 1px solid var(--gray200);
-    box-shadow: var(--shadow-bottom);
 }
 
 .navbar-logo {
@@ -900,3 +911,41 @@ body {
 }
 
 /* End modals */
+
+/* :hero section */
+.hero-section {
+    /* background-color: tomato; */
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.hero-section__start {
+    /* background-color: skyblue; */
+    flex: 1 0 0;
+
+}
+
+.hero-section__title span {
+    color: var(--primary500);
+}
+
+.hero-section__actions {
+    display: flex;
+    gap: 1rem;
+}
+
+.hero-section__end {
+    /* background-color: pink; */
+    flex: 1 0 0;
+}
+
+.hero-section__img {
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+}
+
+
+
+/* End hero section */
