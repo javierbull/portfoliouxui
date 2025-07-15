@@ -992,3 +992,14 @@ main {
     text-align: center;
 }
 /* End services section */
+
+/* Clients section */
+.clients-section {
+    background-color: var(--primary500);
+    color: var(--white);
+}
+
+.clients-section__start {
+    margin-bottom: 2.5rem;
+}
+/* End clients section */
