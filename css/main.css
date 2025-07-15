@@ -830,7 +830,6 @@ main {
     margin: 0 .5rem;
 }
 
-
 /* End marquee */
 
 /* Modals */
@@ -945,7 +944,38 @@ main {
     aspect-ratio: 3/2;
     object-fit: cover;
 }
-
-
-
 /* End hero section */
+
+/* About section */
+.section-pd {
+    padding: 2.5rem 0;
+}
+
+.about-section {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+.about-section__start {
+    flex: 4 0 0;
+}
+
+.about-section__end {
+    flex: 8 0 0;
+}
+
+.about-section__img {
+    width: 100%;
+    border-radius: 2.5rem 0 2.5rem 0;
+    -webkit-border-radius: 2.5rem 0 2.5rem 0;
+    -moz-border-radius: 2.5rem 0 2.5rem 0;
+    -ms-border-radius: 2.5rem 0 2.5rem 0;
+    -o-border-radius: 2.5rem 0 2.5rem 0;
+}
+
+.about-section-actions {
+    display: flex;
+    gap: 1rem;
+}
+/* End about section */
