@@ -549,6 +549,7 @@ main {
     display: flex;
     align-items: center;
     gap: 1.5rem;
+    border: solid 1px var(--gray400);
 }
 
 .card-service:hover {
@@ -922,7 +923,7 @@ main {
 .hero-section__start {
     /* background-color: skyblue; */
     flex: 1 0 0;
-
+    padding: 1.5rem;
 }
 
 .hero-section__title span {
@@ -979,3 +980,15 @@ main {
     gap: 1rem;
 }
 /* End about section */
+
+/* Services section */
+.services-section {
+    background-color: var(--gray950);
+    color: var(--white);
+}
+
+.services-section__start {
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+/* End services section */
