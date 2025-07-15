@@ -1000,6 +1000,7 @@ main {
 }
 
 .clients-section__start {
+    text-align: center;
     margin-bottom: 2.5rem;
 }
 /* End clients section */
