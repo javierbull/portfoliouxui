@@ -923,7 +923,7 @@ main {
 .hero-section__start {
     /* background-color: skyblue; */
     flex: 1 0 0;
-    padding: 1.5rem;
+    padding: 1rem 0;
 }
 
 .hero-section__title span {
