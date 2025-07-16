@@ -554,6 +554,7 @@ main {
 
 .card-service:hover {
     background-color: var(--primary500);
+    border: solid 1px var(--primary500);
 }
 
 .card-service:hover .primaryDark-btn {
@@ -1007,13 +1008,13 @@ main {
     margin-bottom: 2.5rem;
 }
 
-#owl-demo .item {
+#owl-clients .item {
     margin: 3px;
 }
 
-#owl-demo .item img {
+#owl-clients .item img {
     display: block;
-    height: 3rem;
+    height: 3.5rem;
     margin-left: auto;
     margin-right: auto;
 }
