@@ -1014,3 +1014,13 @@ main {
 
 /* End clients section */
 
+/* Work section */
+.chip-group {
+    /* background-color: lavender; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+/* End work section */
+
