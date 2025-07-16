@@ -5,8 +5,9 @@ $(document).ready(function () {
         autoPlay: true,
         items: 5,
         itemsDesktop: [1199, 3],
-        itemsDesktopSmall: [979, 3]
-
+        itemsDesktopSmall: [979, 3],
+        itemsMobile : [479,1],
+        pagination: false
     });
 
 });
