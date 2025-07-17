@@ -781,10 +781,7 @@ main {
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
     border: solid 1px var(--gray200);
-}
-
-.card-form .headline_2 {
-    margin-bottom: 1.25rem;
+    color: var(--gray950);
 }
 
 /* End forms */
@@ -1090,5 +1087,11 @@ main {
     display: flex;
     align-items: center;
     gap: 1.5rem;
+}
+
+.wrap-contact-sections {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5rem;
 }
 /* End contact section */
