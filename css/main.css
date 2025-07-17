@@ -791,6 +791,10 @@ main {
     background-color: var(--gray950);
     color: var(--white);
     padding: 1.5rem 2.5rem;
+    border-top: solid 1px var(--gray500);
+}
+
+.wrap-footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1064,12 +1068,12 @@ main {
     align-items: center;
     width: 3.5rem;
     height: 3.5rem;
-    border-radius: 50%;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
     font-size: 2rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 .contact-section__info-contact {
