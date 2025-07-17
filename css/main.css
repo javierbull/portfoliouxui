@@ -426,6 +426,7 @@ main {
     -moz-border-radius: 2rem;
     -ms-border-radius: 2rem;
     -o-border-radius: 2rem;
+    white-space: nowrap;
 }
 
 .chip-checkbox:hover span {
