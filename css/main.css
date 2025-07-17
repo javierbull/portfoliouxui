@@ -190,13 +190,16 @@ main {
 }
 
 .btn-icon {
-    font-size: 1.5rem;
-    padding: 1rem !important;
+    padding: .9rem;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+
+.btn-icon ion-icon {
+    font-size: 1.5rem !important;
 }
 
 .primary-btn {
@@ -1046,3 +1049,46 @@ main {
     gap: 1.25rem;
 }
 /* End testimonial section */
+
+/* Contact section */
+.contact-section {
+    background-color: var(--gray950);
+    color: var(--white);
+}
+
+.contact-section__title {
+    color: var(--primary400);
+}
+
+.wrap-info-icon {
+    background-color: var(--gray900);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    font-size: 2rem;
+}
+
+.contact-section__info-contact {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.contact-section__label {
+    color: var(--gray300);
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+/* End contact section */
