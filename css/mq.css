@@ -12,7 +12,9 @@
         object-fit: cover;
     }
 
-    .about-section-text h2 {
+    .about-section-text h2,
+    .services-section__start h2
+     {
         font-size: 2.5rem;
         line-height: 3rem;
     }
@@ -21,6 +23,8 @@
         font-size: 2rem;
         line-height: 2.5rem;
     }
+
+
 
     .modal-maxwidth-mobile {
         --bs-modal-width: 98%;
@@ -44,6 +48,11 @@
         /* background-color: peru; */
         flex-direction: column;
         padding: 1.25rem;
+    }
+
+    .card-service__start {
+        align-items: flex-start;
+        gap: 1rem;
     }
 
     .card-service__end {
