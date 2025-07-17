@@ -12,6 +12,16 @@
         object-fit: cover;
     }
 
+    .about-section-text h2 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .experience-data__number {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
     .modal-maxwidth-mobile {
         --bs-modal-width: 98%;
     }
@@ -108,6 +118,30 @@
     .hero-section__img {
         width: 100%;
         aspect-ratio: 3/2;
+    }
+
+    .about-section {
+        /* background-color: pink; */
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .about-section__img {
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+
+    .about-section-text h2 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .wrap-experience-data {
+        gap: 1rem;
+    }
+
+    .section-pd {
+        padding: 1.5rem 0;
     }
 
 }
