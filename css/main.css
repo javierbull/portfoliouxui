@@ -640,11 +640,13 @@ main {
 }
 
 .card-testimonial {
-    width: 20rem;
+    background-color: var(--white);
     border: 1px solid var(--gray200);
     padding: 4.75rem 1.5rem 4.875rem 1.5rem;
     text-align: center;
     position: relative;
+    margin-top: 4rem;
+    flex: 1 0 0;
 }
 
 .card-testimonial:hover {
@@ -1032,3 +1034,15 @@ main {
 }
 
 /* End work section */
+
+/* Testimonial section */
+.testimonial-section {
+    background-color: var(--gray050);
+}
+
+.testimonials-grid {
+    /* background-color: pink; */
+    display: flex;
+    gap: 1.25rem;
+}
+/* End testimonial section */
