@@ -13,10 +13,14 @@
     }
 
     .about-section-text h2,
-    .services-section__start h2
-     {
+    .services-section__start h2,
+    .clients-section__start h2 {
         font-size: 2.5rem;
         line-height: 3rem;
+    }
+
+    .mb-title {
+        margin-bottom: 1.5rem;
     }
 
     .experience-data__number {
@@ -151,6 +155,18 @@
 
     .section-pd {
         padding: 1.5rem 0;
+    }
+
+    #owl-clients .item {
+        /* background-color: tomato; */
+        height: 5rem;
+        display: flex;
+        align-items: center;
+    }
+
+    #owl-clients .item img {
+        width: 100%;
+        height: auto;
     }
 
 }
