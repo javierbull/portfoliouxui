@@ -1047,8 +1047,9 @@ main {
 
 .testimonials-grid {
     /* background-color: pink; */
-    display: flex;
-    gap: 1.25rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1.25rem;
 }
 /* End testimonial section */
 
