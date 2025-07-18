@@ -1051,6 +1051,7 @@ main {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 1.25rem;
 }
+
 /* End testimonial section */
 
 /* Contact section */
@@ -1108,4 +1109,29 @@ main {
     align-items: center;
     gap: 1rem;
 }
+
 /* End contact section */
+
+/* Navigation bottom */
+.bottom-nav {
+    display: flex;
+    align-items: center;
+    padding: .5rem 1rem;
+    box-shadow: var(--shadow-top);
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(50px);
+}
+
+.bottom-nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: .5rem;
+    color: var(--gray900);
+}
+
+.show-mobile {
+    display: none;
+}
+/* End navigation bottom */
