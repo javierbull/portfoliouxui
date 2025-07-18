@@ -15,7 +15,8 @@
     .about-section-text h2,
     .services-section__start h2,
     .clients-section__start h2,
-    .work-section h2.display_3 {
+    .work-section h2.display_3,
+    .contact-section h2 {
         font-size: 2.5rem;
         line-height: 3rem;
     }
@@ -40,6 +41,15 @@
     .testimonials-grid {
         /* background-color: pink; */
         grid-template-columns: 1fr 1fr;
+    }
+
+    .wrap-contact-sections {
+        flex-direction: column;
+    }
+
+    .contact-section__title {
+        font-size: 2rem;
+        line-height: 2.5rem;
     }
 
     .modal-maxwidth-mobile {
@@ -184,6 +194,42 @@
     .testimonials-grid {
         /* background-color: pink; */
         grid-template-columns: 1fr;
+    }
+
+    .wrap-info-icon {
+        background-color: var(--gray900);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 2.5rem;
+        min-height: 2.5rem;
+        max-width: 2.5rem;
+        max-height: 2.5rem;
+        font-size: 1.5rem;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+
+    .contact-section__label {
+        font-size: .875rem;
+    }
+
+    .contact-section__item .subhead_3 {
+        font-size: 1rem;
+    }
+
+    .socials {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: .5rem;
+    }
+
+    .socials .subhead_3 {
+        font-size: 1rem;
+        margin-bottom: 0;
     }
 
 }

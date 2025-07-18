@@ -1010,7 +1010,7 @@ main {
 }
 
 #owl-clients .item {
-    margin: 3px;
+    margin: .25rem;
 }
 
 #owl-clients .item img {
@@ -1068,8 +1068,10 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 3.5rem;
-    height: 3.5rem;
+    min-width: 3.5rem;
+    min-height: 3.5rem;
+    max-width: 3.5rem;
+    max-height: 3.5rem;
     font-size: 2rem;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -1099,5 +1101,11 @@ main {
     display: flex;
     justify-content: space-between;
     gap: 2.5rem;
+}
+
+.wrap-socials-btns {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 /* End contact section */
