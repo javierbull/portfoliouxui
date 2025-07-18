@@ -36,6 +36,14 @@
         overflow-x: scroll;
         justify-content: flex-start;
         padding: .25rem 0;
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
+    }
+
+    .chip-group::-webkit-scrollbar {
+        display: none;
     }
 
     .testimonials-grid {
@@ -244,7 +252,7 @@
         margin-bottom: 0;
     }
 
-    
+
 
 }
 
