@@ -133,7 +133,8 @@
     }
 
     .footer {
-        padding: 2rem 1rem 7rem 1rem;
+        padding: 2rem 1rem;
+        margin-bottom: 5.125rem;
     }
 
     .footer,
