@@ -37,6 +37,10 @@
     --shadow-bottom: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 16px;
     line-height: 1.25rem;
@@ -465,6 +469,10 @@ main {
     padding: 1rem 0;
     border-bottom: 1px solid var(--gray200);
     box-shadow: var(--shadow-bottom);
+}
+
+.section {
+    scroll-margin-top: 87px;
 }
 
 .navbar-main .container {
@@ -935,6 +943,7 @@ main {
 /* End modals */
 
 /* :hero section */
+
 .hero-section {
     /* background-color: tomato; */
     display: flex;
