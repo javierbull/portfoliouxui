@@ -759,11 +759,16 @@ main {
 
 .card-design-process {
     display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
     gap: 1rem;
 }
 
 .card-design-process ion-icon {
-    font-size: 1.5rem;
+    min-width: 1.5rem;
+    max-width: 1.5rem;
+    min-height: 1.5rem;
+    max-height: 1.5rem;
 }
 
 .card-process {
