@@ -253,10 +253,12 @@
         margin-bottom: 0;
     }
 
-
-
     .show-mobile {
         display: flex;
+    }
+
+    .section {
+        scroll-margin-top: 78px;
     }
 
 }
